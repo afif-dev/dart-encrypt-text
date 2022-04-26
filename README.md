@@ -1,2 +1,1 @@
-# dart-encrypt-text
-Dart CLI App: Encrypt &amp; Decrypt Text
+# Dart CLI App: Encrypt &amp; Decrypt Text
