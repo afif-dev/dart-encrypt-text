@@ -55,9 +55,9 @@ Future<void> menuList() async {
           await enctext.saveAsText(secretKey, encryptedText);
           print(
               "--------------------------------------------------------------------------------------");
-          print(" Secret Key: $secretKey");
-          print(" Encrypted Text: $encryptedText");
-          print("\n *saved into dart_encypt_text.txt");
+          print("Secret Key: $secretKey");
+          print("Encrypted Text: $encryptedText");
+          print("\n*saved into dart_encypt_text.txt");
           print(
               "--------------------------------------------------------------------------------------\n");
           break;
@@ -72,7 +72,7 @@ Future<void> menuList() async {
             var decryptedText = enctext.getDecryptedText(secretKeyIn.toString(), encryptedTextIn.toString());
             print(
                 "--------------------------------------------------------------------------------------");
-            print(" Decrypted Text: $decryptedText");
+            print("Decrypted Text:\n$decryptedText");
             print(
                 "--------------------------------------------------------------------------------------\n");
           } catch (e) {
